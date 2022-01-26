@@ -25,6 +25,9 @@ kind: API
 metadata:
   name: my-component-api
 spec:
+  lifecycle: production
+  owner: devx
+  system: api
   type: grpc
   definition: >
     service HelloService {
